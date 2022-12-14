@@ -80,6 +80,10 @@ The below link contains combined notes of sprint 1,2 and 3.
 * We created a custom gazebo world which could simulate the requirements for our project
 
 ![image](https://github.com/mjoshi07/project_finder/blob/dev_phase2/data/gazebo_world.png)
+* For the custom world, we also generated a binary occupancy grid, loaded in rviz
+
+![image](https://github.com/mjoshi07/project_finder/blob/dev_phase2/data/rviz_map.png)
+
 
 ## Static Code analysis
 * Cppcheck results can be found [here](https://github.com/mjoshi07/project_finder/blob/dev_phase2/results/cppcheck.txt)
