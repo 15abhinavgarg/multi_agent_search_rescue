@@ -5,12 +5,12 @@
 
 ## Project Description 
 ## Overview
-This package simulates a Multi-agent system for search and rescue missions where we use turtlebot3 package in ROS2 Galactic. Our multi-agent system consists of 2- robots that are each specialized for a certain task. 5 turtlebots will be simulated as threats and another 5 turtlebots will be simulating the behavior of security forces (SWAT). The objective of the SWAT bots is to neutralize the threats and then go on to rescue the hostages. The SWAT knows the location of the hostages.
+This package simulates a Multi-agent system for search and rescue missions where we use turtlebot3 package in ROS Noetic. Our multi-agent system consists of 2- robots that are each specialized for a certain task. 5 turtlebots will be simulated as threats and another 5 turtlebots will be simulating the behavior of security forces (SWAT). The objective of the SWAT bots is to neutralize the threats and then go on to rescue the hostages. The SWAT knows the location of the hostages.
 
 This software is a stepping stone in developing and studying the interaction between security forces and the adversaries. The objective is run all the swat bot simultaneously without bumping into each other.
 
 ## Background
-The project will help us to gain insight as to how ROS2, Gazebo and RViz works. The goal is to have understanding as to how services and nodes work. Gazebo and Rviz was another tool which we plan to learn through this project
+The project will help us to gain insight as to how ROS Noetic, Gazebo and RViz works. The goal is to have understanding as to how services and nodes work. Gazebo and Rviz was another tool which we plan to learn through this project
 ## Final Project Team: Group 1
 
  - Naveen Mangla (https://github.com/nvnmangla)
@@ -20,16 +20,23 @@ The project will help us to gain insight as to how ROS2, Gazebo and RViz works. 
 ## Development Team
 Sprint | #1 | #2 | #3 |
 --- | --- | --- | ---
-Naveen Mangla | Design Keeper | Design Keeper | Driver
-Mahima Arora | Navigator | Driver | Design Keeper
-Abhinav Garg | Driver | Navigator | Design Keeper  
+Naveen Mangla | Design Keeper | Navigator | Driver
+Mahima Arora | Navigator | Driver | Navigator
+Abhinav Garg | Driver | Design Keeper | Design Keeper  
 
 ### Dependencies/ Assumptions
 - OS : Ubuntu 20.04 
-- ROS2 Distro : ROS2 Galactic
+- ROS Distro : ROS Noetic
 - Package build type : ```ament_cmake ```
 - Package dependencies : ```rclcpp```, ```std_msgs``` 
-- ROS2 Galactic Installation : [link](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html)
+- ROS Noetic Installation : [link](http://wiki.ros.org/noetic)
+
+## External Dependencies
+- [ROS Noeitic](http://wiki.ros.org/noetic)
+- [Gazebo](http://gazebosim.org/)
+- [Move Base](http://wiki.ros.org/move_base)
+- [RViz](http://wiki.ros.org/rviz)
+
 
 ## Github CI and Codecov
 
@@ -72,9 +79,9 @@ This project will be completed using AIP process with the involvement of 3 progr
 
 ## Table of Contents
    * [Phase 1 Proposal](https://drive.google.com/file/d/1Q7Ae7BqAT_y9z2TzFeA78kWwCRC0aNpY/view?usp=share_link)
-   * [External Dependencies](#external-dependencies)
-   * [Installation instructions](#installation-instructions)
-   * [Tests](#tests)
+   * [Phase 1 Video](#external-dependencies)
+   * [UML Class Diagram Phase 1](https://drive.google.com/file/d/1heAoCuE7eX8_rLSVcIel38kI9LPRAprV/view?usp=share_link)
+   * [TestActivity Diagram Phase 1](#tests)
    * [Generating documentation](#generating-documentation)
    * [Installation instructions](#installation-instructions)
    * [Activity Diagram](#activity-diagram)
@@ -85,14 +92,8 @@ This project will be completed using AIP process with the involvement of 3 progr
 The below link contains combined notes of sprint 1.
 [Link](https://docs.google.com/document/d/1eXNISSYEkhZfuHLOKzZ1n7hsESNZ54MTIxZAkLqt3zA/edit?usp=sharing)
 
-## External Dependencies
-- [ROS Noeitic](http://wiki.ros.org/noetic)
-- [Gazebo](http://gazebosim.org/)
-- [Move Base](http://wiki.ros.org/move_base)
-- [RViz](http://wiki.ros.org/rviz)
 
-
-### ROS2 Run TESTS
+### ROS Run TESTS
 Run the following commands to test your test cases:
 ```
 colcon build --packages-select multi_agent_hostage_rescue
