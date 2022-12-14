@@ -24,6 +24,7 @@ The project will help us to gain insight as to how ROS Noetic, Gazebo and RViz w
  - Abhinav Garg  (https://github.com/15abhinavgarg)
 
 ## Development Team
+
 Sprint | #1 | #2 | #3 |
 --- | --- | --- | ---
 Naveen Mangla | Design Keeper | Navigator | Driver
@@ -31,6 +32,7 @@ Mahima Arora | Navigator | Driver | Navigator
 Abhinav Garg | Driver | Design Keeper | Design Keeper  
 
 ## Dependencies/ Assumptions
+
 - OS : Ubuntu 20.04 
 - ROS Distro : ROS Noetic
 - Package build type : ```ament_cmake ```
@@ -38,6 +40,7 @@ Abhinav Garg | Driver | Design Keeper | Design Keeper
 - ROS Noetic Installation : [link](http://wiki.ros.org/noetic)
 
 ## External Dependencies
+
 - [ROS Noeitic](http://wiki.ros.org/noetic)
 - [Gazebo](http://gazebosim.org/)
 - [Move Base](http://wiki.ros.org/move_base)
