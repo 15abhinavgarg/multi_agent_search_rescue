@@ -1,4 +1,4 @@
-# Final Project - Multi-Agent Hostage Rescue
+# Final Project - Multi-Agent Search Rescue
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![CICD Workflow status](https://github.com/mahimaarora2208/multi_agent_hostage_rescue/actions/workflows/build_and_coveralls.yml/badge.svg)
 [![codecov](https://codecov.io/gh/mahimaarora2208/my-ros2-codecov-exp/branch/main/graph/badge.svg?token=AEULJJEMWV)](https://codecov.io/gh/mahimaarora2208/multi_agent_hostage_rescue)
@@ -78,6 +78,7 @@ The below link contains combined notes of sprint 1,2 and 3.
 
 ## World
 * We created a custom gazebo world which could simulate the requirements for our project
+
 ![image](https://github.com/mjoshi07/project_finder/blob/dev_phase2/data/gazebo_world.png)
 
 ## Static Code analysis
