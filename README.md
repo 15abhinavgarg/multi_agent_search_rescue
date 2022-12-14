@@ -11,6 +11,12 @@ This software is a stepping stone in developing and studying the interaction bet
 
 ## Background
 The project will help us to gain insight as to how ROS Noetic, Gazebo and RViz works. The goal is to have understanding as to how services and nodes work. Gazebo and Rviz was another tool which we plan to learn through this project
+
+## Deliverables
+* Project: Muti-Agent Search and Rescue
+* Overview of prosposed work, including risks, mitigation, timeline
+* UML and activity diagrams
+* Developer-level documentation
 ## Final Project Team: Group 1
 
  - Naveen Mangla (https://github.com/nvnmangla)
@@ -67,6 +73,13 @@ This project will be completed using AIP process with the involvement of 3 progr
 The below link contains combined notes of sprint 1,2 and 3.
 [Link](https://docs.google.com/document/d/11oySgE_zwOvXpFovoRmgSecJl7ENY24lKy-PxDtwdi0/edit?usp=sharing)
 
+## World
+* We created a custom gazebo world which could simulate the requirements for our project
+![image](https://github.com/mjoshi07/project_finder/blob/dev_phase2/data/gazebo_world.png)
+
+## Static Code analysis
+* Cppcheck results can be found [here](https://github.com/mjoshi07/project_finder/blob/dev_phase2/results/cppcheck.txt)
+* Cpplint results can be found [here](https://github.com/mjoshi07/project_finder/blob/dev_phase2/results/cpplint.txt)
 ## How to Run the ROS Package
 ### Build Instructions
 ```
