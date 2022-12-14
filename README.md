@@ -45,17 +45,6 @@ Additional information on building the software to test for coverage is shown be
 
 ## License
 We are going with a Apache 2.0 License.
-## How to Run the ROS Package
-### Build Instructions
-```
-cd <your_ROS2_ws>/src
-git clone https://github.com/mahimaarora2208/multi_agent_hostage_rescue.git
-cd ..   
-rosdep install -i --from-path src --rosdistro galactic -y
-colcon build --packages-select multi_agent_hostage_rescue
-source . install/setup.bash
-source ~/<your ROS2 installation>/opt/ros/galactic/setup.bash
-```
 
 ## AIP Development
 
@@ -78,6 +67,17 @@ This project will be completed using AIP process with the involvement of 3 progr
 The below link contains combined notes of sprint 1,2 and 3.
 [Link](https://docs.google.com/document/d/11oySgE_zwOvXpFovoRmgSecJl7ENY24lKy-PxDtwdi0/edit?usp=sharing)
 
+## How to Run the ROS Package
+### Build Instructions
+```
+cd <your_ROS2_ws>/src
+git clone https://github.com/mahimaarora2208/multi_agent_hostage_rescue.git
+cd ..   
+rosdep install -i --from-path src --rosdistro galactic -y
+colcon build --packages-select multi_agent_hostage_rescue
+source . install/setup.bash
+source ~/<your ROS2 installation>/opt/ros/galactic/setup.bash
+```
 
 ### ROS Run TESTS
 Run the following commands to test your test cases:
