@@ -24,7 +24,7 @@ Naveen Mangla | Design Keeper | Navigator | Driver
 Mahima Arora | Navigator | Driver | Navigator
 Abhinav Garg | Driver | Design Keeper | Design Keeper  
 
-### Dependencies/ Assumptions
+## Dependencies/ Assumptions
 - OS : Ubuntu 20.04 
 - ROS Distro : ROS Noetic
 - Package build type : ```ament_cmake ```
@@ -61,36 +61,22 @@ source ~/<your ROS2 installation>/opt/ros/galactic/setup.bash
 
 This project will be completed using AIP process with the involvement of 3 programmers using Pair-programming in turns. One of the programmer would be driver while other 2 would be navigator and design keeper. The detailed Product Backlog, Iteration Backlogs and Work Log are mentioned in the link given below :
 
-[Agile Iterative Process](https://docs.google.com/spreadsheets/d/1q81OENQQRdlFShR4wcxflBOyHls5yuyU/edit?usp=sharing&ouid=106728747057946217321&rtpof=true&sd=true)  # TO-D0 Needs to be updated
+[Agile Iterative Process](https://docs.google.com/spreadsheets/d/1mDrRoUfZzBNDNiOhypIE3cQk9wSGpyxWhO2YZYkp0Ic/edit?usp=sharing)
 
 ## Important Links
-
-[Phase 1 Proposal](https://drive.google.com/file/d/1Q7Ae7BqAT_y9z2TzFeA78kWwCRC0aNpY/view?usp=share_link)
-
-[Phase 1 Video](https://drive.google.com/file/d/1j9FvWYJ_o5ee0BTNtfcTjndG6ISZVPU-/view)
-
-[UML Class Diagram Phase 0](https://drive.google.com/file/d/1heAoCuE7eX8_rLSVcIel38kI9LPRAprV/view?usp=share_link)
-
-[Activity Diagram Phase 0](https://drive.google.com/file/d/1A6i3RmnGnbHXjkOn1xPDj8RQZXLSRa0C/view?usp=share_link) 
-
-[UML Class Diagram Phase 1](https://drive.google.com/file/d/1u1SfBBqCDe6bCdI-nSmj1gVIL7Obzjpz/view?usp=share_link)
-
-[Quad Chart](https://drive.google.com/file/d/1Q7Ae7BqAT_y9z2TzFeA78kWwCRC0aNpY/view?usp=share_link)
-
-## Table of Contents
    * [Phase 1 Proposal](https://drive.google.com/file/d/1Q7Ae7BqAT_y9z2TzFeA78kWwCRC0aNpY/view?usp=share_link)
-   * [Phase 1 Video](#external-dependencies)
+   * [Phase 1 Video](https://drive.google.com/file/d/1j9FvWYJ_o5ee0BTNtfcTjndG6ISZVPU-/view)
    * [UML Class Diagram Phase 1](https://drive.google.com/file/d/1heAoCuE7eX8_rLSVcIel38kI9LPRAprV/view?usp=share_link)
-   * [TestActivity Diagram Phase 1](#tests)
-   * [Generating documentation](#generating-documentation)
-   * [Installation instructions](#installation-instructions)
-   * [Activity Diagram](#activity-diagram)
-   * [UML Class Diagram](#uml-class-diagram)
-   * [Known Issues](#known-issues)
+   * [Activity Diagram Phase 1](https://drive.google.com/file/d/1A6i3RmnGnbHXjkOn1xPDj8RQZXLSRa0C/view?usp=share_link)
+   * [UML Class Diagram Phase 2](#generating-documentation)
+   * [Activity Diagram Phase 2](https://drive.google.com/file/d/1A6i3RmnGnbHXjkOn1xPDj8RQZXLSRa0C/view?usp=share_link))
+   * [Quad Chart](https://drive.google.com/file/d/1Q7Ae7BqAT_y9z2TzFeA78kWwCRC0aNpY/view?usp=share_link)
+   * [Video Demonstration](#uml-class-diagram)
+   * [](#known-issues)
 
 ## Sprint Planning Notes
-The below link contains combined notes of sprint 1.
-[Link](https://docs.google.com/document/d/1eXNISSYEkhZfuHLOKzZ1n7hsESNZ54MTIxZAkLqt3zA/edit?usp=sharing)
+The below link contains combined notes of sprint 1,2 and 3.
+[Link](https://docs.google.com/document/d/11oySgE_zwOvXpFovoRmgSecJl7ENY24lKy-PxDtwdi0/edit?usp=sharing)
 
 
 ### ROS Run TESTS
